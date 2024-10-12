@@ -1,4 +1,6 @@
 flask
 python-dotenv
 langchain
+langchain_anthropic
+langchain_community
 langgraph
