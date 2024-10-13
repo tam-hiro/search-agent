@@ -8,11 +8,11 @@
 ```shell
 python3 -m venv venv 
 ```
-2. 仮想環境を起動する（Macの場合）
+2. 仮想環境をアクティブ化する（Macの場合）
 ```shell
-source venv/bin/activate
+source venv/bin/activate　# Windows use venv\Scripts\activate
 ```
-3. 必要なライブラリのインストールする
+3. 必要なパッケージをインストールする
 ```shell
 pip install -r requirements.txt
 ```
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ANTHROPIC_API_KEY = your_api_key
 TAVILY_API_KEY = your_api_key
 ```
-5. コマンドを実行してアプリを起動
+5. アプリケーションの実行
 ```shell
 flask run
 ```
