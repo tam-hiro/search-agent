@@ -12,7 +12,7 @@ from typing import Annotated
 app = Flask(__name__)
 
 # 環境設定
-load_dotenv()
+load_dotenv(dotenv_path='../.env')
 ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY')
 TAVILY_API_KEY = os.getenv('TAVILY_API_KEY')
 
